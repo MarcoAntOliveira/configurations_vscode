@@ -1,0 +1,61 @@
+{
+    "editor.fontSize": 12,
+    //"editor.fontFamily": "Cascadia code",
+    "editor.lineHeight": 20,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true,
+    },
+    "editor.fontLigatures": true,
+    "editor.showUnused": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": true
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.defaultInterpreterPath": "venv/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    //configuração azul
+    "workbench.colorCustomizations": {
+    "terminal.background": "#001F3F",  // Azul escuro para o fundo do terminal    
+    "editor.foreground": "#0000FF",  // Cor padrão do texto
+    "editorLineNumber.foreground": "#FF00FF", // Cor dos números das linhas
+    "editorCursor.foreground": "#00FFFF", // Cor do cursor
+    "editor.selectionForeground": "#0000FF", // Cor do texto selecionado
+    "editorBracketMatch.foreground": "#FFFF00", // Cor para correspondência de parênteses
+    "terminal.foreground": "#FF00FF",   // Texto branco para contraste
+    "editor.background": "#001A33",
+    },
+"editor.tokenColorCustomizations": {
+    "comments": "#FFFFFF", // Cor dos comentários
+    "keywords": "#FF00FF", // Cor das palavras-chave
+    "strings": "#FF00FF",  // Cor das strings
+    "variables": "#FFA500", // Cor das variáveis
+    "functions": "#00FFFF" // Cor das funções
+},
+"editor.fontFamily": "Cascadia code",
+
+"code-runner.runInTerminal": true,
+"code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "python": "clear && python3 -u",
+    "lua": "lua",
+    "r": "Rscript",
+    "octave":"cd $dir && clear && octave $fileName"
+    
+    
+},
+"files.autoSave": "afterDelay",
+"workbench.iconTheme": "a-file-icon-vscode"
+
+}
