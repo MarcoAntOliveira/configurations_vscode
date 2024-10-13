@@ -33,6 +33,141 @@
     "terminal.foreground": "#FF00FF",   // Texto branco para contraste
     "editor.background": "#001A33",
     },
+    //fonte vermelho e amarelo
+    //    "workbench.colorCustomizations": {
+   
+//     "sideBar.background": "#000000", // Mudar o fundo da barra de arquivos.
+//     "sideBar.foreground": "#FFA500", // Mudar a cor do texto dos arquivos.
+//     "sideBar.border": "#FF0000", // (Opcional) Mudar a cor da borda da barra lateral.
+    
+//     "sideBarStickyScroll.border":"#FF0000",
+//     "sideBarActivityBarTop.border":"#ff0000",
+//     "list.activeSelectionBackground": "#13bddc",   // Cor de fundo da linha selecionada (ativa).
+//     "list.activeSelectionForeground": "#000000",   // Cor do texto da linha selecionada (ativa).
+//     "list.inactiveSelectionBackground": "#13bddc", // Cor de fundo da linha selecionada (inativa).
+//     "list.inactiveSelectionForeground": "#000000", // Cor do texto da linha selecionada (inativa).
+//     "list.hoverBackground": "#13bddc",             // Cor de fundo quando o mouse passa sobre um item.
+//     "list.hoverForeground": "#FFFFFF",  
+//     "terminal.background": "#000000",  // Cor de fundo do terminal
+//     "terminal.foreground": "#FFA500",  // Cor do texto no terminal
+//     "terminalCursor.background": "#FF0000",  // Cor do fundo do cursor
+//     "terminalCursor.foreground": "#FFA500",  // Cor do cursor
+//     "terminal.ansiBrightGreen": "#5FFF5F",
+//     "terminal.ansiGreen": "#00FF00",
+//     "terminal.ansiRed": "#FF0000",    
+//     "editor.background": "#000000",
+//     "editor.foreground": "#FF0000",  // Cor padrão do texto
+//     "editorLineNumber.foreground": "#FF0000", // Cor dos números das linhas
+//     "editorCursor.foreground": "#13bddc", // Cor do cursor
+//     "editor.selectionForeground": "#13bddc", // Cor do texto selecionado
+//     "editorBracketMatch.foreground": "13bddc", // Cor para correspondência de parênteses
+//     }, // Cor das guias de indentação
+//     "editor.tokenColorCustomizations": {
+//     "comments": "#FFA500", // Cor dos comentários
+//     "keywords": "#0000FF", // Cor das palavras-chave
+//     "strings": "#FFA500",  // Cor das strings
+//     "variables": "#0000FF", // Cor das variáveis
+//     "functions":"#0000FF", // Cor das funções
+//     "textMateRules": [
+//         {
+//             "scope": "keyword",  // Muda o estilo de palavras-chave (como if, else, etc.)
+//             "settings": {
+//                 //"foreground": "#FF0000",  // Cor vermelha
+//                 "fontStyle": "italic"       // Negrito
+//             }
+//         },
+//         {
+//             "scope": "string",  // Muda o estilo de strings (texto entre aspas)
+//             "settings": {
+//                 //"foreground": "#00FF00",  // Cor verde
+//                 "fontStyle": "italic"     // Itálico
+//             }
+//         },
+//         {
+//             "scope":"variables",  // Muda o estilo de strings (texto entre aspas)
+//             "settings": {
+//                 "foreground": "#0000FF",  // Cor azul
+//                 "fontStyle": "italic"     // Itálico
+//             }
+//         },
+//         // {
+//         //     "comments": "keyword",  // Muda o estilo de palavras-chave (como if, else, etc.)
+//         //     "settings": {
+//         //         "foreground": "#FF0000",  // Cor vermelha
+//         //         "fontStyle": "italic bold underline strikethrough"       // Negrito
+//         //     }
+//         // },
+//     ]
+//     },
+
+// fonte verde e azul    
+// "workbench.colorCustomizations": {
+   
+//         "sideBar.background": "#000000", // Mudar o fundo da barra de arquivos.
+//         "sideBar.foreground": "#00FF00", // Mudar a cor do texto dos arquivos.
+//         "sideBar.border": "#13bddc", // (Opcional) Mudar a cor da borda da barra lateral.
+        
+//         "sideBarStickyScroll.border":"#13bddc", 
+//         "sideBarActivityBarTop.border":"#13bddc", 
+//         "list.activeSelectionBackground": "#13bddc",   // Cor de fundo da linha selecionada (ativa).
+//         "list.activeSelectionForeground": "#000000",   // Cor do texto da linha selecionada (ativa).
+//         "list.inactiveSelectionBackground": "#13bddc", // Cor de fundo da linha selecionada (inativa).
+//         "list.inactiveSelectionForeground": "#000000", // Cor do texto da linha selecionada (inativa).
+//         "list.hoverBackground": "#13bddc",             // Cor de fundo quando o mouse passa sobre um item.
+//         "list.hoverForeground": "#FFFFFF",  
+//         "terminal.background": "#000000",  // Cor de fundo do terminal
+//         "terminal.foreground": "#13bddc",  // Cor do texto no terminal
+//         "terminalCursor.background": "#13bddc",  // Cor do fundo do cursor
+//         "terminalCursor.foreground": "#13bddc",  // Cor do cursor
+//         "terminal.ansiBrightGreen": "#5FFF5F",
+//         "terminal.ansiGreen": "#00FF00",
+//         "terminal.ansiRed": "#FF0000",    
+//         "editor.background": "#000000",
+//         "editor.foreground": "#13bddc",  // Cor padrão do texto
+//         "editorLineNumber.foreground": "#13bddc", // Cor dos números das linhas
+//         "editorCursor.foreground": "#13bddc", // Cor do cursor
+//         "editor.selectionForeground": "#13bddc", // Cor do texto selecionado
+//         "editorBracketMatch.foreground": "13bddc", // Cor para correspondência de parênteses
+//         }, // Cor das guias de indentação
+//         "editor.tokenColorCustomizations": {
+//         "comments": "#00FF00", // Cor dos comentários
+//         "keywords": "#0000FF", // Cor das palavras-chave
+//         "strings": "#00FF00",  // Cor das strings
+//         "variables": "#0000FF", // Cor das variáveis
+//         "functions":"#13bddc", // Cor das funções
+//         "textMateRules": [
+//             {
+//                 "scope": "keyword",  // Muda o estilo de palavras-chave (como if, else, etc.)
+//                 "settings": {
+//                     //"foreground": "#FF0000",  // Cor vermelha
+//                     "fontStyle": "italic bold"       // Negrito
+//                 }
+//             },
+//             {
+//                 "scope": "string",  // Muda o estilo de strings (texto entre aspas)
+//                 "settings": {
+//                     //"foreground": "#00FF00",  // Cor verde
+//                     "fontStyle": "italic"     // Itálico
+//                 }
+//             },
+//             {
+//                 "scope": "functions",  // Muda o estilo de strings (texto entre aspas)
+//                 "settings": {
+//                     //"foreground": "#00FF00",  // Cor verde
+//                     "fontStyle": "italic"     // Itálico
+//                 }
+//             },
+
+//             {
+//                 "scope": "variables",  // Muda o estilo de strings (texto entre aspas)
+//                 "settings": {
+//                     //"foreground": "#00FF00",  // Cor verde
+//                     "fontStyle": "italic bold underline"     // Itálico
+//                 }
+//             },          
+//         ]
+//         },
+    
 "editor.tokenColorCustomizations": {
     "comments": "#FFFFFF", // Cor dos comentários
     "keywords": "#FF00FF", // Cor das palavras-chave
