@@ -1,0 +1,178 @@
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true,
+    },
+    "editor.fontLigatures": true,
+    "editor.showUnused": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": true
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.defaultInterpreterPath": "venv/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    
+    // fonte verde e azul    
+   "workbench.colorCustomizations": {
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#00FF00",
+    "sideBar.border": "#13bddc",
+    "sideBarStickyScroll.border": "#191970",
+    "sideBarActivityBarTop.border": "#13bddc",
+    "list.activeSelectionBackground": "#ff00ff",
+    "list.activeSelectionForeground": "#000000",
+    "list.inactiveSelectionBackground": "#13bddc",
+    "list.inactiveSelectionForeground": "#000000",
+    "list.hoverBackground": "#13bddc",
+    "list.hoverForeground": "#5FFF5F",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#13bddc",
+    "terminalCursor.background": "#13bddc",
+    "terminalCursor.foreground": "#13bddc",
+    "terminal.ansiBrightGreen": "#5FFF5F",
+    "terminal.ansiGreen": "#00FF00",
+    "terminal.ansiRed": "#FF0000",
+    "editor.background": "#000000",
+    "editor.foreground": "#13bddc",
+    "editorLineNumber.foreground": "#0000FF",
+    "editorCursor.foreground": "#13bddc",
+    "editor.selectionForeground": "#13bddc",
+    "editorBracketMatch.foreground": "#13bddc"
+},
+"editor.tokenColorCustomizations": {
+    "comments": "#00FF00",
+    "keywords": "#00ced1",
+    "strings": "#ff00ff",
+    "variables": "#0000FF",
+    "functions": "#0000FF",
+    "textMateRules": [
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#00FF00",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#0000FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#00FFFF",
+                "fontStyle": "italic bold "
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#ff00ff",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#13bddc",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#0000FF",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "meta.function-call",
+            "settings": {
+                "foreground": "#1E90FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "punctuation.definition.string",
+            "settings": {
+                "foreground": "#00FF00",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "comment.documentation",
+            "settings": {
+                "foreground": "#7FFF00",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#0000FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "entity.name.class",
+            "settings": {
+                "foreground": "#FF69B4",
+                "fontStyle": "bold"
+
+            }
+        },
+        {
+            "scope": [
+                "punctuation.section.parens.begin",
+                "punctuation.section.parens.end",
+                "punctuation.section.group.begin",
+                "punctuation.section.group.end"
+            ],
+            "settings": {
+                "foreground": "#ff00ff",
+                "fontStyle": "bold"
+            }
+        },
+
+    ]
+},
+    "editor.fontFamily": "JetBrains Mono",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "clear && python3 -u",
+        "lua": "lua",
+        "r": "Rscript",
+        "octave": "cd $dir && clear && octave $fileName"
+    },
+    "files.autoSave": "afterDelay",
+    // "workbench.iconTheme": "a-file-icon-vscode",
+    "C_Cpp_Runner.cCompilerPath": "gcc",
+    "C_Cpp_Runner.cppCompilerPath": "g++",
+    "C_Cpp_Runner.debuggerPath": "gdb",
+    "C_Cpp_Runner.cStandard": "c23",
+    "C_Cpp_Runner.cppStandard": "c++23",
+
+}
