@@ -1,0 +1,140 @@
+{
+    /**
+     * Minimal Code
+     */
+
+    "workbench.colorCustomizations": {
+    // Fundo geral do editor
+    "editor.background": "#000000",
+    // Cor do texto
+    "editor.foreground": "#CCCCCC",
+
+    // Cursor
+    "editorCursor.foreground": "#FF4D5A",
+
+    // Seleção e realce
+    "editor.selectionBackground": "#2E2E2E",
+    "editor.inactiveSelectionBackground": "#1F1F1F",
+
+    // Linha atual
+    "editor.lineHighlightBackground": "#111111",
+
+    // Número das linhas
+    "editorLineNumber.foreground": "#555555",
+    "editorLineNumber.activeForeground": "#6366F1",
+
+    // Status bar
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#CCCCCC",
+    "statusBar.border": "#6366F1",
+
+    // Título da aba ativa
+    "tab.activeBorderTop": "#6366F1",
+    "tab.activeForeground": "#CCCCCC",
+    "tab.inactiveForeground": "#888888",
+
+    // Paleta de comandos e botões
+    "button.background": "#6366F1",
+    "button.hoverBackground": "#7A7DF5",
+    "button.foreground": "#FFFFFF",
+
+    // Minimap
+    "minimap.findMatchHighlight": "#6366F1",
+    "minimap.selectionHighlight": "#FF4D5A",
+
+    // Terminal integrado
+    "terminal.background": "#000000",
+    "terminal.foreground": "#CCCCCC",
+    "terminalCursor.foreground": "#FF4D5A",
+    "terminal.ansiBlue": "#6366F1",
+    "terminal.ansiRed": "#FF4D5A"
+  },
+      "github.copilot.enable": {
+    "*": false
+   },
+    "debug.console.fontFamily": "Jetbrain",
+
+    "debug.console.fontSize": 13,
+    "debug.console.lineHeight": 36,
+    "debug.toolBarLocation": "docked",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontFamily": "Cascadia code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    //"editor.formatOnSave": true,
+    "editor.glyphMargin": false,
+    // "editor.gotoLocation.multipleDeclarations": "JetBrains Mono",
+    // "editor.gotoLocation.multipleDefinitions": "goto",
+    // "editor.gotoLocation.multipleImplementations": "goto",
+    // "editor.gotoLocation.multipleReferences": "goto",
+    // "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.guides.indentation": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineHeight": 36,
+    "editor.lineNumbers": "on",
+    "editor.matchBrackets": "near",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "explorer.openEditors.visible": 1,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "markdown.preview.markEditorSelection": true,
+    "problems.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.2,
+    "window.autoDetectColorScheme": true,
+    "window.title": "${rootName}",
+    "window.titleBarStyle": "native",
+    //"workbench.colorTheme": "GitHub Light Default",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": null,
+    "workbench.list.horizontalScrolling": true,
+    //"workbench.preferredDarkColorTheme": "Omni Owl (Minimal Italics)",
+    //"workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.activityBar.location": "hidden",
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+"window.newWindowDimensions": "fullscreen",
+  "window.restoreFullscreen": true,
+  "zenMode.fullScreen": true,
+"zenMode.restore": true,
+"workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+},
+"editor.wordWrap": "on",
+"makefile.configureOnOpen": true,
+"explorer.confirmDragAndDrop": false,
+"[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+}
+}
