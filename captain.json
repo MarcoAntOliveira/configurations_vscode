@@ -1,0 +1,175 @@
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.fontLigatures": true,
+    "editor.showUnused": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": true
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.defaultInterpreterPath": "venv/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+
+    "workbench.colorCustomizations": {
+        // Fundo Preto Absoluto no Editor e Terminal
+        "editor.background": "#000000",
+        "editor.foreground": "#E2E8F0", // Branco metálico suave (Star White)
+        "terminal.background": "#000000",
+        "terminal.foreground": "#E2E8F0",
+
+        // Painéis laterais em azul marinho extremamente escuro (Substituído o verde por prata/azul)
+        "sideBar.background": "#030712", 
+        "sideBar.foreground": "#94A3B8", // Texto em Prata fosco
+        "sideBar.border": "#0F172A",
+        "activityBar.background": "#030712",
+        "activityBar.foreground": "#3B82F6", // Azul do Capitão ativo
+
+        // Cursor e Seleção de texto
+        "editorCursor.foreground": "#E2E8F0", // Cursor prata
+        "terminalCursor.background": "#3B82F6", // Cursor do terminal em azul
+        "terminalCursor.foreground": "#3B82F6",
+        "editor.selectionBackground": "#1E3A8A", // Seleção em azul marinho discreto
+
+        // Números de Linha
+        "editorLineNumber.foreground": "#1E293B", // Azul escuro apagado
+        "editorLineNumber.activeForeground": "#3B82F6", // Linha atual em azul brilhante
+
+        // Navegação e Listas
+        "list.activeSelectionBackground": "#0F172A",
+        "list.activeSelectionForeground": "#3B82F6",
+        "list.hoverBackground": "#050B14",
+
+        // Parênteses e Colchetes combinando
+        "editorBracketMatch.background": "#3B82F622",
+        "editorBracketMatch.border": "#3B82F6",
+
+        // Terminal ANSI inspirado na paleta do Capitão América
+        "terminal.ansiBlue": "#1D4ED8",
+        "terminal.ansiBrightBlue": "#3B82F6",
+        "terminal.ansiYellow": "#F59E0B", // Um toque de dourado (detalhes do escudo clássico)
+        "terminal.ansiBrightYellow": "#FBBF24",
+        "terminal.ansiGreen": "#60A5FA", // Trocado verde por azul celeste no terminal
+        "terminal.ansiBrightGreen": "#93C5FD",
+        "terminal.ansiRed": "#991B1B", // Vermelho grena/militar para erros
+        "terminal.ansiBrightRed": "#EF4444"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#334155", // Trocado Verde Musgo por Azul Slate Escuro (comentários super discretos)
+        "keywords": "#3B82F6", // Palavras-chave em Azul Capitão (if, import, return)
+        "strings": "#94A3B8", // Strings em prata fosco para não contrastar demais
+        "functions": "#60A5FA", // Funções em azul celeste metálico
+        "variables": "#E2E8F0", // Variáveis em branco estelar brilhante
+
+        "textMateRules": [
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#3B82F6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#60A5FA",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#E2E8F0"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#94A3B8"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#EF4444" // Números em Vermelho Escudo brilhante
+                }
+            },
+            {
+                "scope": "entity.name.class",
+                "settings": {
+                    "foreground": "#93C5FD",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#334155", // Trocado Verde Musgo por Azul Slate Escuro
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
+    "editor.fontFamily": "JetBrains Mono",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "clear && python3 -u",
+        "lua": "lua",
+        "r": "Rscript",
+        "octave": "cd $dir && clear && octave $fileName"
+    },
+    "files.autoSave": "afterDelay",
+    "C_Cpp_Runner.cCompilerPath": "gcc",
+    "C_Cpp_Runner.cppCompilerPath": "g++",
+    "C_Cpp_Runner.debuggerPath": "gdb",
+    "C_Cpp_Runner.cStandard": "c23",
+    "C_Cpp_Runner.cppStandard": "c++23",
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.environment": {
+        "PATH": "/home/marco/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.45.0-linux-x64/resources/cube-cmake/linux/x86_64:/home/marco/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.3.0-linux-x64/resources/binaries/linux/x86_64:${env.PATH}"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "makefile.configureOnOpen": true,
+    "stm32cube-ide-clangd.detectExtensionConflicts": false,
+    "documentViewer.enableMd": false,
+    "documentViewer.enableCsv": false,
+    "documentViewer.enableExcel": false,
+    "documentViewer.enableWord": false,
+    "documentViewer.enablePdf": false,
+    "cmake.cmakePath": "cube-cmake",
+    "explorer.confirmDragAndDrop": false,
+    "python.createEnvironment.trigger": "off",
+    "explorer.confirmDelete": false,
+    "obsidian-md-vsc.defaultVault": "controle",
+    "obsidian-md-vsc.defaultVaultPath": "/home/marco/projects/mestrado/controle",
+    "obsidian-md-vsc.defaultNote": "README",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.activityBar.location": "top",
+    "vscode-office.editorTheme": "Light",
+    "explorer.confirmPasteNative": false,
+    "chat.viewSessions.orientation": "stacked",
+    
+    // Esconder barras do topo e abas
+    "window.menuBarVisibility": "toggle",
+    "workbench.editor.showTabs": "none",
+    "breadcrumbs.enabled": false
+}
