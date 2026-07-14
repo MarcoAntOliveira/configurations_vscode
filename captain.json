@@ -29,7 +29,7 @@
         "terminal.background": "#000000",
         "terminal.foreground": "#E2E8F0",
 
-        // Painéis laterais em azul marinho extremamente escuro (Substituído o verde por prata/azul)
+        // Painéis laterais em azul marinho extremamente escuro
         "sideBar.background": "#030712", 
         "sideBar.foreground": "#94A3B8", // Texto em Prata fosco
         "sideBar.border": "#0F172A",
@@ -55,19 +55,19 @@
         "editorBracketMatch.background": "#3B82F622",
         "editorBracketMatch.border": "#3B82F6",
 
-        // Terminal ANSI inspirado na paleta do Capitão América
+        // Terminal ANSI inspirado na paleta do Capitão América (SEM VERDE)
         "terminal.ansiBlue": "#1D4ED8",
         "terminal.ansiBrightBlue": "#3B82F6",
-        "terminal.ansiYellow": "#F59E0B", // Um toque de dourado (detalhes do escudo clássico)
+        "terminal.ansiYellow": "#F59E0B", // Toque de dourado do escudo
         "terminal.ansiBrightYellow": "#FBBF24",
-        "terminal.ansiGreen": "#60A5FA", // Trocado verde por azul celeste no terminal
-        "terminal.ansiBrightGreen": "#93C5FD",
+        "terminal.ansiGreen": "#3B82F6", // Trocado VERDE por AZUL
+        "terminal.ansiBrightGreen": "#60A5FA", // Trocado VERDE por AZUL CLARO
         "terminal.ansiRed": "#991B1B", // Vermelho grena/militar para erros
         "terminal.ansiBrightRed": "#EF4444"
     },
 
     "editor.tokenColorCustomizations": {
-        "comments": "#334155", // Trocado Verde Musgo por Azul Slate Escuro (comentários super discretos)
+        "comments": "#334155", // Azul Slate Escuro (comentários super discretos)
         "keywords": "#3B82F6", // Palavras-chave em Azul Capitão (if, import, return)
         "strings": "#94A3B8", // Strings em prata fosco para não contrastar demais
         "functions": "#60A5FA", // Funções em azul celeste metálico
@@ -116,7 +116,7 @@
             {
                 "scope": "comment",
                 "settings": {
-                    "foreground": "#334155", // Trocado Verde Musgo por Azul Slate Escuro
+                    "foreground": "#334155", 
                     "fontStyle": "italic"
                 }
             }
